@@ -1,0 +1,20 @@
+36 ccp "Constants propagated" "main" 2
+36 ccp "Statements deleted" "main" 2
+40 fre "SCC iterations == 3" "main" 2
+50 release_ssa "SSA names released" "main" 2
+50 release_ssa "SSA name holes removed" "main" 2
+84 fre "SCC iterations == 3" "main" 2
+86 vrp "Statements folded" "main" 2
+86 vrp "Constants propagated" "main" 2
+86 vrp "Jumps threaded" "main" 1
+86 vrp "Number of ASSERT_EXPR expressions inserted" "main" 4
+88 dce "PHI nodes deleted" "main" 1
+91 copyprop "Copies propagated" "main" 1
+91 copyprop "Statements deleted" "main" 1
+113 pre "compute_antic iterations == 2" "main" 1
+113 pre "Insertions" "main" 1
+113 pre "SCC iterations == 3" "main" 2
+113 pre "insert iterations == 2" "main" 1
+153 dom "Copies propagated" "main" 1
+155 vrp "Number of ASSERT_EXPR expressions inserted" "main" 1
+226 combine "two-insn combine" "main" 1

@@ -1,0 +1,23 @@
+Questions
+---------
+
+        1   How is array declaration and initialization handled?
+
+        2   Why does the statement a[i] = b[i] get broken down to two steps with
+            an intermediate temporary?
+
+        3   Why are there CLOBBER statements at the end?
+
+
+
+
+Answers
+-------
+
+1.  with no initialisation and explicit size the arrays are declared
+   . Initialisation takes place one element per statement on scope entry.
+
+2.
+
+3. To mark the arrays as invalid at scope exit - probably to simplify analysis
+   and permit reuse of stack slots, etc.
