@@ -1,0 +1,7 @@
+A4
+2. Presumably because like in many architectures, only one memory operation per
+   instruction is permitted. This probably simplifies many things.
+
+B4 
+3.Not returning b would result in its elimination as dead code, for example in
+   the case where `return b` is changed to `return 0`.
